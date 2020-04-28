@@ -3,19 +3,23 @@ import React from 'react';
 import Saint from './test/Saint';
 import Weather from './test/Weather';
 import Slide from './test/Slide';
-import './App.css';
+// import Apps from './test/login/Apps';
+
+
+
 function App() {
   return (
 
     <div className="text-center">
-   
-      <Slide/>
-    <div className="text-left">
-    <Saint />
-      <Weather />
+        <Slide />
+        {/* <Apps/> */}
 
-    </div>
-      
+      <div className="text-left">
+        <Saint />
+        <Weather />
+
+      </div>
+
 
     </div>
 
