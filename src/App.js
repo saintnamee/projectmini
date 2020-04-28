@@ -1,12 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+// import './App.css';
+import Saint from './test/Saint';
+import Weather from './test/Weather';
+import Slide from './test/Slide';
 import './App.css';
-
 function App() {
   return (
 
-    <div>
-      <h1>hello</h1> 
+    <div className="text-center">
+   
+      <Slide/>
+    <div className="text-left">
+    <Saint />
+      <Weather />
+
+    </div>
+      
+
     </div>
 
   );
