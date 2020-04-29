@@ -1,9 +1,8 @@
 import React from 'react';
 // import './App.css';
 import Saint from './test/Saint';
-import Weather from './test/Weather';
 import Slide from './test/Slide';
-// import Apps from './test/login/Apps';
+import Pop from './test/login/Pop';
 
 
 
@@ -11,12 +10,15 @@ function App() {
   return (
 
     <div className="text-center">
+       
         <Slide />
+        <Pop/>
+        <Saint />
         {/* <Apps/> */}
 
       <div className="text-left">
-        <Saint />
-        <Weather />
+        
+        
 
       </div>
 

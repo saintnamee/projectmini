@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import ".test/Weatherapi/css/WeatherCard.css";
-// import ".test/Weatherapi/css/weather-icons.min.css";
+import ".test/Weatherapi/css/WeatherCard.css";
+import ".test/Weatherapi/css/weather-icons.min.css";
 
 
 let API_KEY = '6fef57b3c3e7b4c751aee544f8cbc214';
