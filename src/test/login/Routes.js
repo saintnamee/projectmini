@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Route, Redirect } from "react-router-dom";
-import { AuthContext } from "./test/login/Auth";
+import { AuthContext } from "./Auth";
 
 const Routes = ({ component: RouteComponent, ...rest }) => {
   const {currentUser} = useContext(AuthContext);
@@ -11,7 +11,7 @@ const Routes = ({ component: RouteComponent, ...rest }) => {
         !!currentUser ? (
           <RouteComponent {...routeProps} />
         ) : (
-          <Redirect to={"/login"} />
+          <Redirect to={""} />
         )
       }
     />

@@ -9,49 +9,16 @@ function Saint() {
             <p>
                
                 <b>ประชาชน 9 ใน 10 คนกำลังเผชิญกับคุณภาพอากาศที่มีมลพิษเกินค่ามาตรฐาน</b>
+                <h4>ในปัจจุบันประชาชน 9 ใน 10 คนกำลังเผชิญกับคุณภาพอากาศที่มีมลพิษเกินค่ามาตรฐานที่องค์การอนามัยโลก
+                     World Health Organization (WHO) กำหนดไว้ ทั้งนี้ WHO ยังอัพเดทสถานการณ์ว่าในแต่ละปีมีผู้คนประมาณ 7 ล้านคนเสียชีวิตจากมลพิษทางอากาศอีกด้วย
+                      มลพิษทางอากาศที่มีอันตรายต่อสุขภาพมากที่สุด คือ ฝุ่นละอองขนาดเล็กไม่เกิน 2.5 ไมครอน (PM2.5) ในปีพ.ศ. 2561 มีพื้นที่ 28 แห่งจาก 53 แห่ง
+                       (ใน 29 จังหวัด) ที่มีความเข้มข้นของ PM2.5 เฉลี่ยรายปีเกินมาตรฐานในบรรยากาศของประเทศไทยซึ่งกำหนดไว้ที่ 25 ไมโครกรัมต่อลูกบาศ์กและพื้นที่เมืองทั้ง
+                        53 แห่ง และยังมีความเข้มข้นของ PM2.5 เฉลี่ยรายปีเกินค่าตามคำแนะนำองค์การอนามัยโลกซึ่งกำหนดไว้ที่ 10 ไมโครกรัมต่อลูกบาศ์กเมตร</h4>
                     
             </p>
-        <header>
-            <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
-                <div class="float-left">
-                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars"></i></a>
-                </div>
-
-                <div class="breadcrumb-dn mr-auto">
-                    <p>pm 2.5</p>
-                </div>
-                <ul class="nav navbar-nav nav-flex-icons ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                            aria-expanded="false">
-                            Dropdown
-                            </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div class="media">
-            <img src="..." class="align-self-start mr-3" alt="..."></img>
-            <div class="media-body">
-                <h5 class="mt-0">Top-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-            </div>
-        </div>
 
 
-
-
-
-            </div >
+        </div >
 
     );
 }

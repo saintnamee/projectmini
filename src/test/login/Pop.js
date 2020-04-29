@@ -1,14 +1,14 @@
 import React from "react";
-import "./App.css";
+import "../../App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from './test/login/Home';
-import Login from './test/login/Login';
-import SignUp from './test/login/SingUp'
-import {AuthProvider} from './test/login/Auth'
-import PrivateRoute from './test/login/Routes'
+import Home from './Home';
+import Login from './Login';
+import SignUp from './SingUp';
+import {AuthProvider} from './Auth';
+import PrivateRoute from './Routes';
 
 
-const Apps = () => {
+const Pop = () => {
   return (
     <AuthProvider>
       <Router>
@@ -22,4 +22,4 @@ const Apps = () => {
   );
 };
 
-export default Apps;
+export default Pop;

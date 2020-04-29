@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ".test/Weatherapi/css/WeatherCard.css";
-import ".test/Weatherapi/css/weather-icons.min.css";
+import "./Weatherapi/css/WeatherCard.css";
+import "./Weatherapi/css/weather-icons.min.css";
 
 
 let API_KEY = '6fef57b3c3e7b4c751aee544f8cbc214';
@@ -26,6 +26,7 @@ class Weather extends Component {
   }
 
   callWeatherData() {
+    fetch("http://api.airvisual.com/v2/city?city=Patong&state=Phuket&country=Thailand&key=77cab88b-0dde-4674-8818-537fd04a55df").then(data => data.json()).then(data => console.log(data))
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=${API_KEY}`;
     fetch(url)
       .then(handleErrors)
@@ -39,6 +40,7 @@ class Weather extends Component {
           country: data.sys.country,
           temp: data.main.temp
         };
+        
         this.setState({
           weatherData: weatherObj,
           errorMessage: ""
